@@ -13,7 +13,7 @@ Aquí se encuentra lo relacionado a la visualización de Tweets en tiempo real.
 Para que este código base pueda funcionar, deben crearse en primera instancia una app en Twitter y una app en Firebase. Luego deben configurarse ambas partes de la aplicación.
 
 ### Backend
-Completar el archivo `config.json` con la siguiente información:
+Correr `npm install` y completar el archivo `config.json` con la siguiente información:
 
 - Twitter
 
