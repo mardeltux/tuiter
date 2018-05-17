@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tuiter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+  <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+  <script src="js/firebase.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-collapse navbar-collapse-1 collapse" aria-expanded="true">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#fake"><span class="glyphicon glyphicon-home"></span> Tuits</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="panel panel-default">
+          <div class="panel-body controles">
+            <img class="img-responsive" alt="" src="images/acamica.png">
+            <div class="row">
+              <div class="col-xs-12">
+                <h5>
+                  <small id="control-btn" onclick="controlFeed()">PAUSA</small>
+                </h5>
+              </div>
+              <div class="col-xs-12" id="pending-tweets" style="display:none;">
+                <h5>
+                  <small>NUEVOS TWEETS:</small>
+                  <span id="tweets-count">100</span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-info" id="tweets-list">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object img-rounded" src="images/casu.png">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Gabriel Casullo <span>@elcasu</span></h4>
+                <p>Ya es hora que los hackers superen algún desafío! #Acamica #Argentina</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="well well-sm">
+          <ul class="list-inline">
+            <li>© 2018 Acamica</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Ads info</a></li>
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Businesses</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Developers</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
