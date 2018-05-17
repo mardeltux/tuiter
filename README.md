@@ -38,3 +38,6 @@ El desafío consiste en agregar el código necesario al archivo `js/main.js` del
 - Cuando el streaming se encuentra pausado, el div `pending-tweets` debe hacerse visible. En él se encuentra el span `tweets-count`, en el cual se debe mostrar la cantidad de tweets pendientes de visualización.
 
 - Cuando el streaming se reanuda, el div `pending-tweets` debe ocultarse y los tweets acumulados deben mostrarse en el listado `tweets-list`.
+
+# Créditos
+El layout utilizado en el frontend se encuentra basado en el diseño y maquetado de [Giada Cantarutti](https://codepen.io/Gi_18/) -> https://codepen.io/Gi_18/pen/xwVJKg
