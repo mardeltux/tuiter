@@ -12,7 +12,7 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 
-document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(event) {
   listenToFirebase();
 });
 
