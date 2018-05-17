@@ -1,0 +1,12 @@
+{
+  "name": "twitter-stream",
+  "version": "1.0.0",
+  "description": "Twitter Stream API Client",
+  "main": "index.js",
+  "author": "Diego Boedo",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^5.12.1",
+    "twitter-stream-api": "^0.5.2"
+  }
+}
