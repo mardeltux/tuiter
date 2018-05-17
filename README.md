@@ -33,9 +33,13 @@ El desafío consiste en agregar el código necesario al archivo `js/main.js` del
 
 - Cada vez que un nuevo Tweet es generado, se emite el evento `newtweet`. Este evento posee toda la información acerca del Tweet en cuestión.
 
-- El botón `control-btn` es el encargado de pausar/continuar el streaming de Tweets en tiempo real. Esto lo debe hacer a través de la función `controlFeed()`.
+- Cada nuevo tweet debe ser insertado **al comienzo** de la lista de tweets.
+
+- El botón `control-btn` es el encargado de pausar/continuar el streaming de Tweets en tiempo real. Esto lo debe hacer a través de la función `controlFeed()`. Esta funcionalidad también debe poder manejarse con la tecla **espacio**.
 
 - Cuando el streaming se encuentra pausado, el div `pending-tweets` debe hacerse visible. En él se encuentra el span `tweets-count`, en el cual se debe mostrar la cantidad de tweets pendientes de visualización.
+
+- El listado de tweets pendientes de visualización puede tener un máximo de 10 tweets. Cuando alcanza ese máximo, cada nuevo tweet debe desplazar al mas viejo.
 
 - Cuando el streaming se reanuda, el div `pending-tweets` debe ocultarse y los tweets acumulados deben mostrarse en el listado `tweets-list`.
 
