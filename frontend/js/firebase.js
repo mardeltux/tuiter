@@ -1,12 +1,12 @@
 var pageSize = 5;
 
 var config = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: ""
+  apiKey: "AIzaSyAXnvCWKfZq-4SFtMfg2OSk2SiqCMFY8Q4",
+  authDomain: "slack-channel.firebaseapp.com",
+  databaseURL: "https://slack-channel.firebaseio.com",
+  projectId: "slack-channel",
+  storageBucket: "slack-channel.appspot.com",
+  messagingSenderId: "143137641237"
 };
 
 firebase.initializeApp(config);
